@@ -11,7 +11,7 @@
       sizes="96x96"
     />
 
-    <title>devChallenges.io | Minimal Blog Card</title>
+    <title>Minimal Blog Card</title>
 
     <!--You are welcome to delete these styles or modify them in your own stylesheet -->
     <style>
@@ -23,18 +23,28 @@
 
       body {
         height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
       }
 
-      .author-info {
+      .container {
+        width: 30%;
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         font-size: 14px;
         text-align: center;
         margin-top: 16px;
+        background-color: rgb(138, 186, 228);
         color: rgb(55, 65, 81);
       }
-
-      .author-info a {
-        text-decoration: none;
+      img{
+         
       }
+
     </style>
   </head>
   <body>
@@ -46,11 +56,13 @@
 
   Annie Spratt -->
 
-    <div class="author-info">
-      Coded by <a href="#">Your Name Here</a> | Challenge by
-      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
-        >devChallenges.io</a
-      >.
+    <div class="container">
+          <img  src="./resources/Cactus@2x.jpg" alt="">
+          <span></span>
+          <h2></h2>
+          <p></p>
+          <p class="name"></p>
+      
     </div>
   </body>
 </html>
